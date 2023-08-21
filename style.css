@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.buttons {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: absolute;
+  bottom: 0;
+
+  border-radius: 5px;
+  background-color: whitesmoke;
+  text-decoration: none;
+  color: white;
+}
+.buttons button {
+  padding: 0.5rem 0.5rem;
+  font-size: 0.9rem;
+
+  border-radius: 5px;
+  background-color: palevioletred;
+  text-decoration: none;
+  color: white;
+}
+
+._ouen {
+  background-color: rgb(255, 101, 127);
+}
+
+._kakkoii {
+  background-color: rgb(255, 229, 63);
+}
+
+._kandou {
+  background-color: rgb(79, 255, 234);
+}
+
+._moriagaru {
+  background-color: rgb(255, 83, 83);
+}
